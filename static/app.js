@@ -17,7 +17,9 @@
         $("#possibilities > li").each(function() {
             poss.push($(this).text());
         });
-        var choice = randInt(0, poss.length - 1);
+        var choice = poss[randInt(0, poss.length - 1)];
+        if (choice === $("#game-input").val())
+            return choose();
         $("#game-input").val(poss[choice]);
     };
 
