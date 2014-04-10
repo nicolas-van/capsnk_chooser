@@ -20,7 +20,7 @@
         var choice = poss[randInt(0, poss.length - 1)];
         if (choice === $("#game-input").val())
             return choose();
-        $("#game-input").val(poss[choice]);
+        $("#game-input").val(choice);
     };
 
 
