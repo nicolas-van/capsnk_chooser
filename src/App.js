@@ -44,6 +44,7 @@ function App () {
   return (
     <div className="container">
       <h1>The Capcom/SNK Fighting Game Chooser</h1>
+      <p>Test !</p>
       <p>
         <input className="form-control" id="game-input" type="text" placeholder='Click the "Choose a game" button' disabled
           value={selected || ''}
