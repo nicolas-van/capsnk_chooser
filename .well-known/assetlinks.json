@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "eu.neoname.capsnk",
+    "sha256_cert_fingerprints":
+    ["4C:03:09:2E:8A:5B:92:62:EC:52:F2:A0:35:FF:A3:B3:88:D7:7D:F9:64:94:D1:67:1E:1E:5A:32:12:AE:8D:43"]
+  }
+}]
