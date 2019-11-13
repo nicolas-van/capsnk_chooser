@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/capsnk_chooser/static/css/main.05d01b6d.chunk.css",
+    "main.js": "/capsnk_chooser/static/js/main.a77e7891.chunk.js",
+    "main.js.map": "/capsnk_chooser/static/js/main.a77e7891.chunk.js.map",
+    "runtime-main.js": "/capsnk_chooser/static/js/runtime-main.8dc964c4.js",
+    "runtime-main.js.map": "/capsnk_chooser/static/js/runtime-main.8dc964c4.js.map",
+    "static/js/2.fbfafca3.chunk.js": "/capsnk_chooser/static/js/2.fbfafca3.chunk.js",
+    "static/js/2.fbfafca3.chunk.js.map": "/capsnk_chooser/static/js/2.fbfafca3.chunk.js.map",
+    "index.html": "/capsnk_chooser/index.html",
+    "precache-manifest.ae27f75284761a39f3f925c8f0374750.js": "/capsnk_chooser/precache-manifest.ae27f75284761a39f3f925c8f0374750.js",
+    "service-worker.js": "/capsnk_chooser/service-worker.js",
+    "static/css/main.05d01b6d.chunk.css.map": "/capsnk_chooser/static/css/main.05d01b6d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dc964c4.js",
+    "static/js/2.fbfafca3.chunk.js",
+    "static/css/main.05d01b6d.chunk.css",
+    "static/js/main.a77e7891.chunk.js"
+  ]
+}
