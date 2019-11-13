@@ -43,35 +43,34 @@ function App () {
   }
   return (
     <div className="container">
-      <h1>The Capcom/SNK Fighting Game Chooser</h1>
-      <p>Test !</p>
-      <p>
-        <input className="form-control" id="game-input" type="text" placeholder='Click the "Choose a game" button' disabled
-          value={selected || ''}
-        />
-      </p>
-      <p className="text-center">
-        <button id="choose-button" className="btn btn-primary" onClick={choose}>Choose a game</button>
-      </p>
-      <p>
-        <h4>Random Fighting Game Tournament Rules</h4>
-        <ul>
-          <li>The match is over when either player wins 2 games (2 games out of 3).</li>
-          <li>Each game is played by randomly choosing a new fighting game using the chooser above. It is
-            recommended to use MAME to play with these fighting games.</li>
-          <li>A game should use the default number of rounds defined in the chosen fighting game (usually
-            2 winning rounds out of 3).</li>
-          <li>After the fighting game was selected, any player may choose to discard that fighting
-            game. When this event occurs, the players simply use the random chooser a second
-            time. Each player can only discard one fighting game per match.</li>
-        </ul>
-      </p>
-      <p>
-        <h4>Possible games</h4>
-        <ul id="possibilities">
-          {lis}
-        </ul>
-      </p>
+      <div className="row justify-content-center">
+        <div className="col-md-8 pt-3">
+          <h1 className="text-center h3">The Capcom/SNK Fighting Game Chooser</h1>
+          <p>
+            <input className="form-control" id="game-input" type="text" placeholder='Click the "Choose a game" button' disabled
+              value={selected || ''}
+            />
+          </p>
+          <p className="text-center">
+            <button className="btn btn-primary btn-lg" onClick={choose}>Choose a game</button>
+          </p>
+          <h2 className="h5">Random Fighting Game Tournament Rules</h2>
+          <ul>
+            <li>The match is over when either player wins 2 games (2 games out of 3).</li>
+            <li>Each game is played by randomly choosing a new fighting game using the chooser above. It is
+              recommended to use MAME to play with these fighting games.</li>
+            <li>A game should use the default number of rounds defined in the chosen fighting game (usually
+              2 winning rounds out of 3).</li>
+            <li>After the fighting game was selected, any player may choose to discard that fighting
+              game. When this event occurs, the players simply use the random chooser a second
+              time. Each player can only discard one fighting game per match.</li>
+          </ul>
+          <h2 className="h5">Random Fighting Game Tournament Rules</h2>
+          <ul id="possibilities">
+            {lis}
+          </ul>
+        </div>
+      </div>
     </div>
   )
 }
