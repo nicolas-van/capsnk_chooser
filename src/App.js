@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 const games = [
   'Street Fighter II: The World Warrior (Capcom, 1991)',
@@ -30,7 +30,7 @@ const games = [
 ]
 
 function randInt (min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
 function App () {
