@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/capsnk_chooser/static/css/main.50cb7af3.chunk.css",
-    "main.js": "/capsnk_chooser/static/js/main.6a7e916e.chunk.js",
-    "main.js.map": "/capsnk_chooser/static/js/main.6a7e916e.chunk.js.map",
+    "main.js": "/capsnk_chooser/static/js/main.6890c3ad.chunk.js",
+    "main.js.map": "/capsnk_chooser/static/js/main.6890c3ad.chunk.js.map",
     "runtime-main.js": "/capsnk_chooser/static/js/runtime-main.8dc964c4.js",
     "runtime-main.js.map": "/capsnk_chooser/static/js/runtime-main.8dc964c4.js.map",
     "static/js/2.fbfafca3.chunk.js": "/capsnk_chooser/static/js/2.fbfafca3.chunk.js",
     "static/js/2.fbfafca3.chunk.js.map": "/capsnk_chooser/static/js/2.fbfafca3.chunk.js.map",
     "index.html": "/capsnk_chooser/index.html",
-    "precache-manifest.fc8c1b9bb0b0be87004fad07a720da96.js": "/capsnk_chooser/precache-manifest.fc8c1b9bb0b0be87004fad07a720da96.js",
+    "precache-manifest.9eee223026b451d0ed8003871381eed4.js": "/capsnk_chooser/precache-manifest.9eee223026b451d0ed8003871381eed4.js",
     "service-worker.js": "/capsnk_chooser/service-worker.js",
     "static/css/main.50cb7af3.chunk.css.map": "/capsnk_chooser/static/css/main.50cb7af3.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.8dc964c4.js",
     "static/js/2.fbfafca3.chunk.js",
     "static/css/main.50cb7af3.chunk.css",
-    "static/js/main.6a7e916e.chunk.js"
+    "static/js/main.6890c3ad.chunk.js"
   ]
 }
