@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "eu.neoname.capsnk"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        defaultConfig {
+            manifestPlaceholders = [
+                hostName: "capsnk.neoname.eu",
+                defaultUrl: "https://capsnk.neoname.eu",
+                launcherName: "The Capcom/SNK Fighting Game Chooser",
+                assetStatements: '[{ "relation": ["delegate_permission/common.handle_all_urls"], ' +
+                        '"target": {"namespace": "web", "site": "https://capsnk.neoname.eu"}}]'
+            ]
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    // implementation 'com.google.androidbrowserhelper:androidbrowserhelper:0.1.0-alpha1'
+    // implementation 'com.github.GoogleChrome.custom-tabs-client:customtabs:91b4a1270b'
+    // implementation 'com.android.support:customtabs:23.3.0'
+    // implementation 'com.github.GoogleChrome.custom-tabs-client:customtabs:809a55cfa2abc074609a7639f9373a358baffc07'
+    implementation 'com.github.GoogleChrome:custom-tabs-client:a0f7418972'
+}
