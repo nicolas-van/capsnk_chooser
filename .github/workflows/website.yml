@@ -20,6 +20,7 @@ jobs:
         npm run build
         npm test
         touch build/.nojekyll
+        echo "capsnk.neoname.eu" > build/CNAME
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
