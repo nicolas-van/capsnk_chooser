@@ -65,7 +65,7 @@ function App () {
               game. When this event occurs, the players simply use the random chooser a second
               time. Each player can only discard one fighting game per match.</li>
           </ul>
-          <h2 className="h5">Random Fighting Game Tournament Rules</h2>
+          <h2 className="h5">Games</h2>
           <ul id="possibilities">
             {lis}
           </ul>
